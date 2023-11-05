@@ -1,1 +1,1 @@
-const mygcd = (x,y) => y == 0 ? x : mygcd(y, x % y)
+const mygcd = (x,y) => y === 0 ? x : mygcd(y, x % y)
