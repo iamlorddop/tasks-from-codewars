@@ -1,0 +1,1 @@
+const positiveSum = arr => arr.reduce((acc, value) => (value >= 0) ? acc += value : acc += 0, 0)
